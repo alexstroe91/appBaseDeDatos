@@ -15,7 +15,7 @@ public class crearBD extends SQLiteOpenHelper {
 
 
     @Override
-    public void onCreate(SQLiteDatabase sqLiteDatabase) {
+    public void onCreate(SQLiteDatabase db) {
         //cualquiera de las dos sentencias siguientes son válidas para crear la tabla
         //tablaprueba.
 
